@@ -1,0 +1,40 @@
+
+<%- include("partials/header"); -%>
+    <!-- <h1>Home</h1>
+    <div class=”block”>
+      <p class=”title”>Date</p>
+      <input type=”text” name=”date” id=”date” placeholder=”dd” required=”required” minlength=”1″ maxlength=”2″ />
+     </div>
+     <div class=”block”>
+      <p class=”title”>Month</p>
+       <input type=”text” name=”month” id=”month” placeholder=”mm” required=”required” minlength=”1″ maxlength=”2″ />
+     </div>
+     <div class=”block”>
+      <p class=”title”>Year</p>
+       <input type=”text” name=”year” id=”year” placeholder=”yyyy” required=”required” minlength=”4″ maxlength=”4″ />
+     </div>
+     <div class=”base”>
+ 
+    <input type="button" value="Submit" name="submit">
+  
+   </div> -->
+   <form action="/" method="post">
+    <div class="block">
+    <p class="title">Date</p>
+    <input type="number" name="date" id="date" placeholder="dd" >
+  </div>
+  <div class="block">
+    <p class="title">Month</p>
+    <input type="number" name="month" id="month" placeholder="mm" >
+  </div>
+  <div class="block">
+    <p class="title">Year</p>
+    <input type="number" name="year" id="year" placeholder="yy" >
+  </div>
+  
+  <div class="base">
+    <input type="submit"name = "submit" value="submit">
+  </div>
+  </form>
+
+<%- include("partials/footer"); -%>
